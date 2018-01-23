@@ -59,7 +59,6 @@
                         <th>NAME</th>
                         <th>AGE</th>
                         <th>SALARY</th>
-                        <th>IMAGE</th>
                         <th width="100"></th>
                         <th width="100"></th>
                     </tr>
@@ -70,7 +69,6 @@
                         <td>{{u.name}}</td>
                         <td>{{u.age}}</td>
                         <td>{{u.salary}}</td>
-                        <td>{{u.image}}</td>
                         <td><button type="button" ng-click="ctrl.editUser(u.id)" class="btn btn-success custom-width">Edit</button></td>
                         <td><button type="button" ng-click="ctrl.removeUser(u.id)" class="btn btn-danger custom-width">Remove</button></td>
                     </tr>
